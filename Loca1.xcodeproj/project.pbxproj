@@ -69,7 +69,7 @@
 		ADA10887173CEE51002B882F /* VBPointManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPointManager.h; sourceTree = "<group>"; };
 		ADA10888173CEE51002B882F /* VBPointManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPointManager.m; sourceTree = "<group>"; };
 		ADA108A2173CF6EA002B882F /* Loca1BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loca1BG.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA108A3173CF6EA002B882F /* Loca1BG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Loca1BG-Info.plist"; path = "/Users/bergusman/Desktop/RocketBank/Trash/Loca1/Loca1BG-Info.plist"; sourceTree = "<absolute>"; };
+		ADA108A4173D01DE002B882F /* Loca1BG-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Loca1BG-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA1085D173CEA30002B882F /* Loca1-Info.plist */,
-				ADA108A3173CF6EA002B882F /* Loca1BG-Info.plist */,
+				ADA108A4173D01DE002B882F /* Loca1BG-Info.plist */,
 				ADA1085E173CEA30002B882F /* InfoPlist.strings */,
 				ADA10861173CEA30002B882F /* main.m */,
 				ADA10863173CEA30002B882F /* Loca1-Prefix.pch */,
@@ -406,7 +406,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Loca1/Loca1-Prefix.pch";
-				INFOPLIST_FILE = "Loca1BG-Info.plist";
+				INFOPLIST_FILE = "Loca1/Loca1BG-Info.plist";
 				PRODUCT_NAME = Loca1BG;
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,7 +417,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Loca1/Loca1-Prefix.pch";
-				INFOPLIST_FILE = "Loca1BG-Info.plist";
+				INFOPLIST_FILE = "Loca1/Loca1BG-Info.plist";
 				PRODUCT_NAME = Loca1BG;
 				WRAPPER_EXTENSION = app;
 			};
