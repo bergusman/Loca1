@@ -18,6 +18,29 @@
 		ADA1086C173CEA30002B882F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1086B173CEA30002B882F /* Default-568h@2x.png */; };
 		ADA1086F173CEA30002B882F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA1086D173CEA30002B882F /* MainStoryboard.storyboard */; };
 		ADA10872173CEA30002B882F /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10871173CEA30002B882F /* VBViewController.m */; };
+		ADA10879173CEA3F002B882F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA10878173CEA3F002B882F /* MapKit.framework */; };
+		ADA1087B173CEA55002B882F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA1087A173CEA55002B882F /* CoreLocation.framework */; };
+		ADA1087D173CEBC6002B882F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA1087C173CEBC6002B882F /* CoreData.framework */; };
+		ADA10880173CED27002B882F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA1087E173CED27002B882F /* Model.xcdatamodeld */; };
+		ADA10885173CEDC6002B882F /* VBPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10884173CEDC6002B882F /* VBPoint.m */; };
+		ADA10889173CEE51002B882F /* VBPointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10888173CEE51002B882F /* VBPointManager.m */; };
+		ADA1088C173CF6EA002B882F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10861173CEA30002B882F /* main.m */; };
+		ADA1088D173CF6EA002B882F /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10865173CEA30002B882F /* VBAppDelegate.m */; };
+		ADA1088E173CF6EA002B882F /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10871173CEA30002B882F /* VBViewController.m */; };
+		ADA1088F173CF6EA002B882F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADA1087E173CED27002B882F /* Model.xcdatamodeld */; };
+		ADA10890173CF6EA002B882F /* VBPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10884173CEDC6002B882F /* VBPoint.m */; };
+		ADA10891173CF6EA002B882F /* VBPointManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA10888173CEE51002B882F /* VBPointManager.m */; };
+		ADA10893173CF6EA002B882F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA1087C173CEBC6002B882F /* CoreData.framework */; };
+		ADA10894173CF6EA002B882F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA1087A173CEA55002B882F /* CoreLocation.framework */; };
+		ADA10895173CF6EA002B882F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA10878173CEA3F002B882F /* MapKit.framework */; };
+		ADA10896173CF6EA002B882F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA10855173CEA30002B882F /* UIKit.framework */; };
+		ADA10897173CF6EA002B882F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA10857173CEA30002B882F /* Foundation.framework */; };
+		ADA10898173CF6EA002B882F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA10859173CEA30002B882F /* CoreGraphics.framework */; };
+		ADA1089A173CF6EA002B882F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA1085E173CEA30002B882F /* InfoPlist.strings */; };
+		ADA1089B173CF6EA002B882F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA10867173CEA30002B882F /* Default.png */; };
+		ADA1089C173CF6EA002B882F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA10869173CEA30002B882F /* Default@2x.png */; };
+		ADA1089D173CF6EA002B882F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1086B173CEA30002B882F /* Default-568h@2x.png */; };
+		ADA1089E173CF6EA002B882F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA1086D173CEA30002B882F /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +60,16 @@
 		ADA1086E173CEA30002B882F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		ADA10870173CEA30002B882F /* VBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
 		ADA10871173CEA30002B882F /* VBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
+		ADA10878173CEA3F002B882F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ADA1087A173CEA55002B882F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADA1087C173CEBC6002B882F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADA1087F173CED27002B882F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		ADA10883173CEDC6002B882F /* VBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPoint.h; sourceTree = "<group>"; };
+		ADA10884173CEDC6002B882F /* VBPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPoint.m; sourceTree = "<group>"; };
+		ADA10887173CEE51002B882F /* VBPointManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPointManager.h; sourceTree = "<group>"; };
+		ADA10888173CEE51002B882F /* VBPointManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBPointManager.m; sourceTree = "<group>"; };
+		ADA108A2173CF6EA002B882F /* Loca1BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loca1BG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA108A3173CF6EA002B882F /* Loca1BG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Loca1BG-Info.plist"; path = "/Users/bergusman/Desktop/RocketBank/Trash/Loca1/Loca1BG-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +77,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA1087D173CEBC6002B882F /* CoreData.framework in Frameworks */,
+				ADA1087B173CEA55002B882F /* CoreLocation.framework in Frameworks */,
+				ADA10879173CEA3F002B882F /* MapKit.framework in Frameworks */,
 				ADA10856173CEA30002B882F /* UIKit.framework in Frameworks */,
 				ADA10858173CEA30002B882F /* Foundation.framework in Frameworks */,
 				ADA1085A173CEA30002B882F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA10892173CF6EA002B882F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA10893173CF6EA002B882F /* CoreData.framework in Frameworks */,
+				ADA10894173CF6EA002B882F /* CoreLocation.framework in Frameworks */,
+				ADA10895173CF6EA002B882F /* MapKit.framework in Frameworks */,
+				ADA10896173CF6EA002B882F /* UIKit.framework in Frameworks */,
+				ADA10897173CF6EA002B882F /* Foundation.framework in Frameworks */,
+				ADA10898173CF6EA002B882F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA10852173CEA30002B882F /* Loca1.app */,
+				ADA108A2173CF6EA002B882F /* Loca1BG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +123,9 @@
 		ADA10854173CEA30002B882F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADA1087C173CEBC6002B882F /* CoreData.framework */,
+				ADA1087A173CEA55002B882F /* CoreLocation.framework */,
+				ADA10878173CEA3F002B882F /* MapKit.framework */,
 				ADA10855173CEA30002B882F /* UIKit.framework */,
 				ADA10857173CEA30002B882F /* Foundation.framework */,
 				ADA10859173CEA30002B882F /* CoreGraphics.framework */,
@@ -83,11 +136,11 @@
 		ADA1085B173CEA30002B882F /* Loca1 */ = {
 			isa = PBXGroup;
 			children = (
+				ADA10882173CED3A002B882F /* Models */,
+				ADA10881173CED35002B882F /* Controllers */,
 				ADA10864173CEA30002B882F /* VBAppDelegate.h */,
 				ADA10865173CEA30002B882F /* VBAppDelegate.m */,
 				ADA1086D173CEA30002B882F /* MainStoryboard.storyboard */,
-				ADA10870173CEA30002B882F /* VBViewController.h */,
-				ADA10871173CEA30002B882F /* VBViewController.m */,
 				ADA1085C173CEA30002B882F /* Supporting Files */,
 			);
 			path = Loca1;
@@ -97,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA1085D173CEA30002B882F /* Loca1-Info.plist */,
+				ADA108A3173CF6EA002B882F /* Loca1BG-Info.plist */,
 				ADA1085E173CEA30002B882F /* InfoPlist.strings */,
 				ADA10861173CEA30002B882F /* main.m */,
 				ADA10863173CEA30002B882F /* Loca1-Prefix.pch */,
@@ -105,6 +159,27 @@
 				ADA1086B173CEA30002B882F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA10881173CED35002B882F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA10870173CEA30002B882F /* VBViewController.h */,
+				ADA10871173CEA30002B882F /* VBViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		ADA10882173CED3A002B882F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1087E173CED27002B882F /* Model.xcdatamodeld */,
+				ADA10883173CEDC6002B882F /* VBPoint.h */,
+				ADA10884173CEDC6002B882F /* VBPoint.m */,
+				ADA10887173CEE51002B882F /* VBPointManager.h */,
+				ADA10888173CEE51002B882F /* VBPointManager.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +200,23 @@
 			name = Loca1;
 			productName = Loca1;
 			productReference = ADA10852173CEA30002B882F /* Loca1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA1088A173CF6EA002B882F /* Loca1 BG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA1089F173CF6EA002B882F /* Build configuration list for PBXNativeTarget "Loca1 BG" */;
+			buildPhases = (
+				ADA1088B173CF6EA002B882F /* Sources */,
+				ADA10892173CF6EA002B882F /* Frameworks */,
+				ADA10899173CF6EA002B882F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loca1 BG";
+			productName = Loca1;
+			productReference = ADA108A2173CF6EA002B882F /* Loca1BG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				ADA10851173CEA30002B882F /* Loca1 */,
+				ADA1088A173CF6EA002B882F /* Loca1 BG */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +260,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADA10899173CF6EA002B882F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA1089A173CF6EA002B882F /* InfoPlist.strings in Resources */,
+				ADA1089B173CF6EA002B882F /* Default.png in Resources */,
+				ADA1089C173CF6EA002B882F /* Default@2x.png in Resources */,
+				ADA1089D173CF6EA002B882F /* Default-568h@2x.png in Resources */,
+				ADA1089E173CF6EA002B882F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -177,6 +282,22 @@
 				ADA10862173CEA30002B882F /* main.m in Sources */,
 				ADA10866173CEA30002B882F /* VBAppDelegate.m in Sources */,
 				ADA10872173CEA30002B882F /* VBViewController.m in Sources */,
+				ADA10880173CED27002B882F /* Model.xcdatamodeld in Sources */,
+				ADA10885173CEDC6002B882F /* VBPoint.m in Sources */,
+				ADA10889173CEE51002B882F /* VBPointManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA1088B173CF6EA002B882F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA1088C173CF6EA002B882F /* main.m in Sources */,
+				ADA1088D173CF6EA002B882F /* VBAppDelegate.m in Sources */,
+				ADA1088E173CF6EA002B882F /* VBViewController.m in Sources */,
+				ADA1088F173CF6EA002B882F /* Model.xcdatamodeld in Sources */,
+				ADA10890173CF6EA002B882F /* VBPoint.m in Sources */,
+				ADA10891173CF6EA002B882F /* VBPointManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +401,28 @@
 			};
 			name = Release;
 		};
+		ADA108A0173CF6EA002B882F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loca1/Loca1-Prefix.pch";
+				INFOPLIST_FILE = "Loca1BG-Info.plist";
+				PRODUCT_NAME = Loca1BG;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADA108A1173CF6EA002B882F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loca1/Loca1-Prefix.pch";
+				INFOPLIST_FILE = "Loca1BG-Info.plist";
+				PRODUCT_NAME = Loca1BG;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,7 +443,28 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
+		ADA1089F173CF6EA002B882F /* Build configuration list for PBXNativeTarget "Loca1 BG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA108A0173CF6EA002B882F /* Debug */,
+				ADA108A1173CF6EA002B882F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADA1087E173CED27002B882F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADA1087F173CED27002B882F /* Model.xcdatamodel */,
+			);
+			currentVersion = ADA1087F173CED27002B882F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ADA1084A173CEA30002B882F /* Project object */;
 }
